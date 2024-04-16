@@ -17,25 +17,26 @@ p{
 `
 const Icones = styled.div`
 display: flex;
+gap: 20px;
+align-items: center;
+a{
+   
+    img{
+        width: 40px;
+    }
+};
 `
 
 const Footer = () => {
     return (
         <FooterEstilizado>
             <Icones> 
-                <BotaoIcone>
-                <img src="/imagens/sociais/facebook.svg" alt="Icone do Facebook" />
-            </BotaoIcone>
-
-            <BotaoIcone>
-                <img src="/imagens/sociais/instagram.svg" alt="Icone do Instagram" />
-            </BotaoIcone>
-
-            <BotaoIcone>
-                <img src="/imagens/sociais/twitter.svg" alt="Icone do Twitter" />
-            </BotaoIcone>
+                <a href="https://github.com/burigooth" target="_blank">
+                <img src="/imagens/sociais/github-mark-white.svg" alt="Icone do Github" />
+            </a>
+            
             </Icones>
-        <p>Desenvolvido por Mateus</p>
+        <p>Desenvolvido por Mateus & Alura </p>
         </FooterEstilizado>
     )
 }
