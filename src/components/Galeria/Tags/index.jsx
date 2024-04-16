@@ -29,13 +29,20 @@ const TagsContainer = styled.div`
     border-color: #C98CF1;
     }
     `
-
-const Tags = () => {
+    const Div = styled.div`
+    display: flex;
+    gap: 24px;
+    justify-content: end;
+`
+const Tags = ({ setTag }) => {
     return (
-    <TagsContainer>
-        <TagTitulo>Busque por tags: </TagTitulo>
-        {tags.map(tag => <Tag key={tag.id}>{tag.titulo}</Tag>)}
-    </TagsContainer>
-)}
+        <TagsContainer>
+            <TagTitulo>Busque por tags:</TagTitulo>
+            <Div>
+                {tags.map(tag => <Tag key={tag.id} onClick={() => setTag(tag.tag)}>{tag.titulo}</Tag>)}
+            </Div>
+        </TagsContainer>
+    )
+}
 
-export default Tags;
+export default Tags

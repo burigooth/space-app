@@ -3,6 +3,7 @@ import Titulo from "../Titulo";
 import Tags from "./Tags";
 import Populares from "./Populares";
 import Imagem from "./Imagem";
+
 const GaleriaContainer = styled.div`
     display: flex;
     gap: 24px;
@@ -19,10 +20,10 @@ const ImagensCotainer = styled.section`
     gap: 24px;
 `
 
-const Galeria = ({ fotos = [], aoFotoSelecionada, aoAlternarFavorito }) => {
+const Galeria = ({ fotos = [], aoFotoSelecionada, aoAlternarFavorito, setTag}) => {
     return (
         <>
-         <Tags />
+         <Tags setTag={setTag} />
             <GaleriaContainer>
                 <SecaoFluida>
                  <Titulo> Navegue pela galeria </Titulo>
