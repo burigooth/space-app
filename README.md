@@ -1,5 +1,5 @@
 # SpaceApp
-<img alt="SpaceApp" src="">
+<img alt="SpaceApp" src="space-app.png">
 
 > Projeto desenvolvido para estudos e prática em React e Styled Components.
 
@@ -13,7 +13,7 @@
 O projeto consiste em uma galeria da galáxia com diversas fotos, podendo ser filtradas através das tags de busca ou da barra de pesquisa. Também com uma modal para ver as imagens em alta escala.
 <br>
 <br>
-Teste o projeto clicando [aqui]()
+Teste o projeto clicando [aqui](https://space-app-amber.vercel.app/)
 
 ## 📝 Licença
 
