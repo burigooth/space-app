@@ -10,7 +10,8 @@
 
 ## 💻 Projeto
 
-O projeto consiste em uma galeria da galáxia com diversas fotos, podendo ser filtradas através das tags de busca ou da barra de pesquisa.
+O projeto consiste em uma galeria da galáxia com diversas fotos, podendo ser filtradas através das tags de busca ou da barra de pesquisa. Também com uma modal para ver as imagens em alta escala.
+<br>
 <br>
 Teste o projeto clicando [aqui]()
 
