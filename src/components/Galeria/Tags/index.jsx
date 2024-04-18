@@ -29,6 +29,7 @@ const TagsContainer = styled.div`
     border-color: #C98CF1;
     }
     `
+
     const Div = styled.div`
     display: flex;
     gap: 24px;
